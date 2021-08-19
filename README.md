@@ -25,14 +25,14 @@
 
 **1) Gyro 센서 특성 및 오차 보정**
 
-<p align="center"><img src="img/자이로 데이터시트.png" width="500"><img src="img/정지 상태 자이로 센서.png" width="500"></p>
+<p align="center"><img src="img/자이로 데이터시트.png" width="50%"><img src="img/정지 상태 자이로 센서.png" width="50%"></p>
 
 - Gyro 센서를 사용할 때 센서 자체의 DC bias에 대한 오차와 온도에 의한 오차, 적분을 통한 수학적 에러에 의한 오차 등 총 3가지의 오차가 존재한다.
 - 이러한 오차를 보정하기 위한 방법으로 특정 임계값보다 낮은 경우 이를 정지 상태로 간주한다. 이때 측정값에 대한 평균값을 DC bias로 설정한다. 이후 각도를 구하는 식에서 해당 값을 제거한다.
 
 **2) Gyro 센서 회전각 측정**
 
-<p align="center"><img src="img/자이로 보정 전후 dt각도 비교_STOP.png" width="500"><img src="img/자이로 보정 전후 각도 비교.png" width="500"></p>
+<p align="center"><img src="img/자이로 보정 전후 dt각도 비교_STOP.png" width="50%"><img src="img/자이로 보정 전후 각도 비교.png" width="50%"></p>
 
 - 앞서 제시한 방법을 적용하여 Gyro 센서의 각도를 측정해 보았다. 위 그림의 파란색 선은 보정하기 전 값이고 빨간색 선은 보정된 값이다. 
 - 오른쪽 그림을 보면 정지한 상태에서 보정한 경우 각도의 변화가 거의 없는 반면, 보정하지 않은 경우 지속적으로 각도의 변화가 발생하는 것을 볼 수 있다.
@@ -87,7 +87,7 @@
 
 ### 위치 측정을 위한 로봇
 
-<p align="center"><img src="img/로봇.jpg" width="500"><img src="img/실제 경로.jpg" width="500"></p>
+<p align="center"><img src="img/로봇.jpg" width="50%"><img src="img/실제 경로.jpg" width="50%"></p>
 
 ### Encoder를 이용한 측정 결과
 
